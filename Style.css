@@ -1,0 +1,101 @@
+body {
+
+    margin: 0;
+	background: #87CEFA;
+    padding: 0;
+
+   }
+
+ * {
+
+  box-sizing: border-box;
+
+}
+
+form {
+
+	border: solid 1px #aaa; 
+	background: #FFFFFF; 
+	padding: 150px; 
+	-moz-border-radius: 150px; 
+	-khtml-border-radius: 150px; 
+	-webkit-border-radius: 150px; 
+	border-radius: 500px; 
+	margin: 0; 
+	text-align: justify;
+	line-height: 23px; 
+	color: black;
+}
+
+form span a{
+
+  background: lightblue;
+
+  padding: 0.7em;
+
+  border: 0;
+
+  text-decoration: none;
+
+  color: black;
+
+  text-align: center;
+
+}
+
+
+label {
+
+  text-align: left;
+
+  display: block;
+
+  padding: 0.5em 1.5em 0em 0;
+
+}
+
+input {
+	border-style: dotted;
+
+	width: 100%;
+
+	padding: 0.7em;
+
+	margin-bottom: 0.5rem;
+
+}
+
+@media (min-width: 400px) {
+
+  form {
+
+    overflow: hidden;
+
+  }
+
+  label {
+
+    float: left;
+
+    width: 200px;
+
+  }
+
+  input {
+
+    float: left;
+
+    width: calc(100% - 200px);
+
+  }
+
+
+
+    select {
+
+    float: left;
+
+    width: calc(100% - 200px);
+
+  }
+}
